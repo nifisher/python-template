@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Last-modified: 07 Feb 2022 11:41:43 PM
+# Last-modified: 07 Feb 2022 11:55:51 PM
 ################################################################################
 
 # Single file python template with main
@@ -10,6 +10,7 @@
 ################################################################################
 # 0.   - initial version
 # 1.   - argument parsinge and logging
+# 2.   - create json configuraiton files
 
 # Imports
 ################################################################################
@@ -21,7 +22,7 @@ import shutil #to manipulate files
 
 # Globals
 ################################################################################
-ver_major = "1"
+ver_major = "2"
 ver_minor = "0"
 
 config = {
