@@ -1,16 +1,11 @@
 #!/usr/bin/python3
-# Last-modified: 07 Feb 2022 11:55:51 PM
+# Last-modified: 08 Feb 2022 09:43:21 PM
 ################################################################################
 
 # Single file python template with main
 # single.py
 ################################################################################
 
-# Version History
-################################################################################
-# 0.   - initial version
-# 1.   - argument parsinge and logging
-# 2.   - create json configuraiton files
 
 # Imports
 ################################################################################
