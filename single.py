@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Last-modified: 08 Feb 2022 09:43:21 PM
+# Last-modified: 09 Feb 2022 12:28:03 AM
 ################################################################################
 
 # Single file python template with main
@@ -20,6 +20,7 @@ import shutil #to manipulate files
 ver_major = "2"
 ver_minor = "0"
 
+#/* config
 config = {
     'version' : {
         'major' : int(ver_major),
@@ -28,8 +29,10 @@ config = {
     'key' : 'value',
     'list' : []
     }
+#*/ config
 
 
+#/* ;pggomg
 logCfg = {
     'root': {
         'handlers': ['console-root'],
@@ -84,6 +87,7 @@ logCfg = {
             }
         }
     }
+#*/ ;pggomg
 
 
 # Funcitons
@@ -96,8 +100,8 @@ logCfg = {
 # for running this suite as a script directly
 if __name__ == "__main__":
 
+    #/* logging
     logCfgFile = 'log.cfg'
-    cfgFile    = 'single.cfg'
 
     # Configure logging
     # Overwrite global config if config file exists
@@ -113,6 +117,7 @@ if __name__ == "__main__":
     logging.config.dictConfig(logCfg)
     log = logging.getLogger()
     log.info('Program start')
+    #*/ logging
 
     # Command line arguments
     argv = argparse.ArgumentParser(description="Single file python cript to do something")
